@@ -1,14 +1,12 @@
 package com.demo;
 
-import java.io.Serializable;
-
-public class student implements Serializable{
+public class student {
 
     int id;
     String name;
-    public student(int id, String name){
+
+    public student(int i, String morris) {
         this.id = id;
         this.name = name;
     }
-
 }

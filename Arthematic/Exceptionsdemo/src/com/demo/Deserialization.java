@@ -5,7 +5,7 @@ public class Deserialization {
     public static void main(String[] args) {
         try {
             ObjectInputStream is = new ObjectInputStream(new FileInputStream("C:\\Programs\\Java\\Arthematic\\Exceptionsdemo\\src\\com\\demo\\file.txt"));
-            student s = (student)is.readObject();
+            Student s = (Student)is.readObject();
 
             System.out.println(s.id+" "+s.name);
             is.close();
